@@ -1,0 +1,134 @@
+
+
+.bg-image {
+  background-repeat: no-repeat;
+  
+  background-size: cover;
+  background-position: center;
+}
+
+
+
+
+/*======================================
+//--//-->   NAVBAR
+======================================*/
+
+
+/*--/ Hamburger Navbar /--*/
+
+
+/*======================================
+//--//-->   INTRO
+======================================*/
+.intro-bg-cus {
+  
+  width: 50% !important;
+  max-width: 550px !important;
+  height: auto !important;
+  margin-left: 6% !important;
+  margin-top: -26% !important;
+
+
+  border-radius: 8px;
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 1px 12px rgba(0, 0, 0, 0.10);
+    border: 0px solid rgba(255, 255, 255, 0.5);
+  
+  
+}
+
+
+.intro-title {
+font-size: 3vw ;
+color: white;
+
+}
+.text-slider {
+  font-size: 2vw ;
+  
+}
+
+.intro {
+  width: 100%;
+  padding-top: 46.5%;
+  
+  color: #fff;
+}
+
+
+/* .intro-subtitle {
+  font-size: 2rem !important;
+  font-weight: 300;
+} */
+
+.text-slider-items {
+  display: none;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:700px){
+    .intro-title {
+        margin-bottom: 0 !important;
+        padding-bottom: 0 !important;
+      }
+
+  
+    
+    
+  }
+
+@media (max-width:380px){
+  .intro-wrap{
+    margin-left: 9% !important;
+    margin-top: 6% !important;
+  }
+}
+
+
+  @media (max-width:378px){
+    .intro-bg-cus{
+      margin-top: -18% !important;
+      line-height: 20%;
+      height: 40px !important;
+      display: flex !important;
+      align-items: center !important;
+    }
+  }
+
+
+@media (min-width: 768px) {
+  
+
+  .navbar-b.navbar-trans .nav-item,
+  .navbar-b.navbar-reduce .nav-item {
+    padding-left: 10px;
+  }
+
+  .navbar-b.navbar-trans .nav-link:before,
+  .navbar-b.navbar-reduce .nav-link:before {
+    margin-left: 18px;
+  }
+
+  
+}
+
+@media (min-width:380px){
+  .intro-wrap {
+      padding: 5% !important;
+    }
+}
